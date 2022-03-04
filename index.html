@@ -10,24 +10,84 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" width=80px height="80px">
+            <img src="img/logo.png" width=80px height="80px" alt="">
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-lg-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Quem somos</a>
+                    <a class="nav-link active" aria-current="page" href="#quemsomos">Quem somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Parceiros</a>
+                    <a class="nav-link" href="#Parceiros">Parceiros</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#Serviços">Serviços</a>
                 </li>
             </ul>
             </div>
     </nav>
+
+
+
+    <section id="quemsomos">
+        <div class="container-fluid text-center margin quemsomos">
+            <h3>Quem somos</h3>
+            <img src="img/img1.jpg" alt="imagem1" class="rounded-circle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum. Ultrices dui sapien eget mi proin sed. Id porta nibh venenatis cras sed felis eget velit. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Orci ac auctor augue mauris augue neque. Dictum at tempor commodo ullamcorper. Quisque sagittis purus sit amet volutpat consequat. Maecenas sed enim ut sem viverra. Dignissim enim sit amet venenatis urna cursus. Dignissim diam quis enim lobortis. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Enim eu turpis egestas pretium aenean pharetra magna. Semper viverra nam libero justo laoreet sit amet cursus sit. Aliquet nec ullamcorper sit amet risus nullam eget felis. Libero id faucibus nisl tincidunt eget nullam non.</p>
+        </div>
+    </section>
+
+    <section id="Parceiros">
+    <div class="container-fluid text-center margin parceiros">
+        <h3>Parceiros</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/logo-python.png" alt="" width="200" height="200">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/logo-js.png" alt="" width="200" height="200">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/logo-java.png" alt="" width="200" height="200">
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum. Ultrices dui sapien eget mi proin sed. Id porta nibh venenatis cras sed felis eget velit. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Orci ac auctor augue mauris augue neque. Dictum at tempor commodo ullamcorper. Quisque sagittis purus sit amet volutpat consequat. Maecenas sed enim ut sem viverra. Dignissim enim sit amet venenatis urna cursus. Dignissim diam quis enim lobortis. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Enim eu turpis egestas pretium aenean pharetra magna. Semper viverra nam libero justo laoreet sit amet cursus sit. Aliquet nec ullamcorper sit amet risus nullam eget felis. Libero id faucibus nisl tincidunt eget nullam non.</p>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="Serviços">
+    <div class="container-fluid text-center margin Serviços">
+        <h3>Serviços</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum. Ultrices dui sapien eget mi proin sed. Id porta nibh venenatis cras sed felis eget velit. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Orci ac auctor augue mauris </p>
+                    <img src="img/logo-python.png" alt="" width="200" height="200">
+                </div>
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum. Ultrices dui sapien eget mi proin sed. Id porta nibh venenatis cras sed felis eget velit. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Orci ac auctor augue mauris </p>
+                    <img src="img/logo-js.png" alt="" width="200" height="200">
+                </div>
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum. Ultrices dui sapien eget mi proin sed. Id porta nibh venenatis cras sed felis eget velit. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Orci ac auctor augue mauris </p>
+                    <img src="img/logo-java.png" alt="" width="200" height="200">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="container-fluid text-center footer ">
+        <p>Desenvolvido por Raphael Alcântara</p>
+    </footer>
 </body>
 </html>
